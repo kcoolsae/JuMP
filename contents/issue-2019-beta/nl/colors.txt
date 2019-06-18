@@ -1,0 +1,17 @@
+pink
+
+  d35f5fff
+
+light pink
+
+  e9afafff
+
+green
+
+  008000ff
+
+light green
+
+  b6e9afff
+
+

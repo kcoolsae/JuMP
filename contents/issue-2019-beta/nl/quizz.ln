@@ -1,0 +1,13 @@
+when gf clicked
+set [volume] to ( (pick random {1} to {10}) / {100} )
+set [massa] to ( (pick random {1} to {7}) / {10} )
+say "Ik hou een stuk metaal vast." for {7} seconds
+say "Bereken de dichtheid uit de volgende gegevens." for {6} seconds
+set [dichtheid] to ( (massa) / (volume::variable) )
+set [dichtheid] to ( round (dichtheid) )
+ask "Met massa in kg en volume in m³, wat is de dichtheid?" and wait
+if < (answer) = (dichtheid) > then
+    say "Super! Je hebt alles begrepen!! Tot ziens!" for {2} seconds
+else
+    say "Oeps! Dit is niet correct. Probeer eens opnieuw" for {4} seconds
+    
