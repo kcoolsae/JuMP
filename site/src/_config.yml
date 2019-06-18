@@ -1,0 +1,36 @@
+# Jekyll configuration file
+#
+# Describes how to transform the contents of the src directory to html pages (in the docs) directory
+
+## For this to work, you need te following jekyll plugins:
+# sudo gem install  jekyll-optional-front-matter jekyll-relative-links
+
+plugins:
+# - jekyll-optional-front-matter # replaced by my plugin
+- jekyll-relative-links
+
+# Site settings
+title: Test Jekyll
+
+baseurl: "/JuMP" # the subpath of your site, e.g. /blog
+url: "http://twizz.ugent.be/" # the base hostname & protocol for your site
+
+destination: ../docs/
+
+# Build settings
+markdown: kramdown
+
+# Default settings
+defaults:
+   -
+      scope:
+         path: ""   # all files in the project
+         type: "pages"
+      values:
+         layout: "default"
+         title: "JuMP Magazine"
+
+# Plugin configuration
+optional_front_matter:
+  remove_originals: true
+

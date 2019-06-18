@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+<head>
+    <!-- Some tags derived from http://getbootstrap.com/examples/cover/# -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>JuMP</title>
+    <link href="../css/screen.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="../js/nav.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <div id="navigation">
+        <a href="javascript:void(0);" id="menu-icon" onclick="menuToggle();">
+            <span>&#xf0c9;</span>
+        </a>
+        <div id="logo"><a href="../{{page.lang}}/index.html"><img src="../img/jump-logo.svg" height="150px"></a></div>
+        <div id="menu">
+        </div>
+    </div>
+    <div id="content">
+        {{ content }}
+    </div>
+</div>
+
+</body>
+</html>
