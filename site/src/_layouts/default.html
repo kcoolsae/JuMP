@@ -22,6 +22,11 @@
         </a>
         <div id="logo"><a href="../{{page.lang}}/index.html"><img src="../img/jump-logo.svg" height="150px"></a></div>
         <div id="menu">
+            <ul>
+            {% for item in page.menu %}
+                <li><a href="{{item.url}}">{{item.caption}}</a></li>
+            {% endfor %}
+            </ul>
         </div>
     </div>
     <div id="content">

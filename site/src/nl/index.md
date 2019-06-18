@@ -22,6 +22,8 @@ Het proefexemplaar bestaat enkel in het Nederlands, maar de eerste editie zal oo
 uit een samenwerking van Universiteit Gent, Université Catholique de Louvain en Université de Lille 1, maar voor de volgende nummers
 verwachten we ook inbreng van andere universiteiten en - belangrijk! - van leerkrachten uit het middelbaar en het lager onderwijs.
 
+[Meer details …](proefnummer.md)
+
 Contacteer ons
 ---
 Je kan ons (voorlopig?) bereiken via e-mail op het adres

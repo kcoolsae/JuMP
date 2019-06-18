@@ -1,1 +1,9 @@
 lang: nl
+
+menu:
+  - caption: Welkom
+    url: index.html
+  - caption: Proefnummer
+    url: proefnummer.html
+  - caption: En français
+    url: ../fr/index.html
