@@ -8,10 +8,10 @@
 
 
     <title>JuMP</title>
-    <link href="../css/screen.css" rel="stylesheet">
+    <link href='{{"/css/screen.css" | relativize_url}}' rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script src="../js/nav.js"></script>
+    <script src='{{"/js/nav.js" | relativize_url}}' ></script>
 </head>
 
 <body>
@@ -20,7 +20,8 @@
         <a href="javascript:void(0);" id="menu-icon" onclick="menuToggle();">
             <span>&#xf0c9;</span>
         </a>
-        <div id="logo"><a href="../{{page.lang}}/index.html"><img src="../img/jump-logo.svg" height="150px"></a></div>
+        <div id="logo"><a href='{{ "/" | append: page.lang | append: "/index.html" | relativize_url }}'><img
+                src='{{ "/img/jump-logo.svg" | relativize_url }}' height="150px"></a></div>
         <div id="menu">
             <ul>
             {% for item in page.menu %}

@@ -108,5 +108,25 @@ module ProcessFiles
 
     
   end
+
+  ## The following was taken from
+  # https://github.com/jekyll/jekyll/issues/6360 - comment by aioobe 13 Sep 2017
+  #
+  # adapted to allow for urls ending in / (e.g., for index files)
   
+    module UrlRelativizer
+      def relativize_url(url)
+        pageUrl = @context.registers[:page]["url"]
+        if pageUrl.end_with? ("/")
+          pageDir = Pathname(pageUrl)
+        else
+          pageDir = Pathname(pageUrl).parent
+        end
+
+        Pathname(url).relative_path_from(pageDir).to_s
+      end
+    end
+
 end
+
+Liquid::Template.register_filter(ProcessFiles::UrlRelativizer)
