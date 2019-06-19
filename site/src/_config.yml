@@ -3,11 +3,11 @@
 # Describes how to transform the contents of the src directory to html pages (in the docs) directory
 
 ## For this to work, you need te following jekyll plugins:
-# sudo gem install  jekyll-optional-front-matter jekyll-relative-links
+# sudo gem install  jekyll-optional-front-matter
+## was: sudo gem install  jekyll-optional-front-matter jekyll-relative-links
 
-plugins:
-# - jekyll-optional-front-matter # replaced by my plugin
-- jekyll-relative-links
+# - jekyll-optional-front-matter # replaced by processfiles.rb
+# - jekyll-relative-links        # replaced by processfiles.rb
 
 # Site settings
 title: Test Jekyll

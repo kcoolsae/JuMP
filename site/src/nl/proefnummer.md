@@ -48,7 +48,7 @@ Lego Mindstorms sturen met een andere programmeertaal:
 Scratch-programma's **intikken** in plaats van blokjes slepen? Handig bij het schrijven van
 e-books en webcursussen:
 
-* [Scratch-LN](<a href=")https://scratch4d.github.io/scratch-LN).
+* [Scratch-LN](https://scratch4d.github.io/scratch-LN).
 
 
 Vakvereniging voor informatica en STEM
